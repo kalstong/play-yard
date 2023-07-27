@@ -1,0 +1,41 @@
+### Get Clients
+GET http://localhost:3000/api/v1/clients
+
+### Create Client
+POST http://localhost:3000/api/v1/client
+content-type: application/json
+
+{
+    "firstName": "Jon",
+    "middleName": "Nada",
+    "lastName": "Doe",
+    "email": "jon.doe@nobody.com",
+    "cardNumber": "1234567890",
+    "balance" : 0
+}
+
+### Delete client
+DELETE http://localhost:3000/api/v1/client/4
+
+
+### Create transaction
+POST http://localhost:3000/api/v1/banker/1/client/13
+content-type: application/json
+
+{
+    "type": "deposit",
+    "amount" : 5
+}
+
+### Create Banker
+POST http://localhost:3000/api/v1/banker
+content-type: application/json
+
+{
+    "firstName": "Saly",
+    "middleName": "Nada",
+    "lastName": "Doe",
+    "email": "saly.moon@nobody.com",
+    "cardNumber": "8757687",
+    "employeeNumber" : "778"
+}
