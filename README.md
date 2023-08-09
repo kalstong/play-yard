@@ -1,7 +1,9 @@
 # play-yard
 
 ## Description
-Playground for testing new technologies
+Playground for testing TypeORM
+
+Base on [TypeORM Crash Course - TypeScript & Node ORM](https://youtu.be/JaTbzPcyiOE)
 
 
 # Compile and Run
