@@ -1,7 +1,7 @@
 # play-yard
 
 ## Description
-Playground for testing TypeORM
+Playground for testing TypeORM with PostgreSQL
 
 Base on [TypeORM Crash Course - TypeScript & Node ORM](https://youtu.be/JaTbzPcyiOE)
 
