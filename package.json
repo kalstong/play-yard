@@ -1,7 +1,7 @@
 {
   "name": "play-yard",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playground for testing TypeORM with PostgreSQL",
   "main": "index.js",
   "scripts": {
     "build": "node rm.js build/ && tsc",
