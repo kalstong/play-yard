@@ -11,9 +11,7 @@ COPY . .
 
 RUN npm install && npm run build
 
-# The final image is based on the official scratch image
-
-# FROM scratch
+# The final image is based on the latest lts official nodejs image
 FROM node:18-alpine
 
 LABEL Maintainer="Ricardo Silva"
